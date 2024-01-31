@@ -1,19 +1,8 @@
-// Load the full build.
-import _ from 'lodash';
-
 /**********************************************************************************************
- * Load the core build.
- * import _ from 'lodash/core';
- *
- * Load the FP build for immutable auto-curried iteratee-first data-last methods.
- * import fp from 'lodash/fp';
- * 
- * Load method categories.
- * import array from 'lodash/array';
- * import object from 'lodash/fp/object';  
- * 
- * [work in progress] - Full reference of methods at https://lodash.com/docs/
+ * https://lodash.com/docs/
  **********************************************************************************************/
+
+import _ from 'lodash';
 
 // Array Methods
 
@@ -47,7 +36,7 @@ lodashArray.push(
      _.fill(['orange', 'car', 'banana', 'pear', 'apple'], 'x', 1, 4)
      );     
      
-
+// ...
 
 
 lodashArray.forEach((lodash,idx) => console.log(idx+1,"==>", lodash));
